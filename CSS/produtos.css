@@ -42,23 +42,50 @@ nav a:hover{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    /* background: #cccccc; */
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 5px solid #000000;
     border-radius: 20px;
 }
+
+.produtos li:hover {
+    border-color: #c78c19;
+    
+}
+
+.produtos li:active{
+    border-color:crimson;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
 }
 .produto_descricao{
     font-size: 18px;
+    font-weight: bold;
 
 }
 .produto_preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("../Imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+
 }
