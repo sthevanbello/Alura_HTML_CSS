@@ -81,7 +81,7 @@ nav a:hover{
 
 
 form {
-    margin: 40px 0;
+    margin: 40px 40px;
 }
 form label, form legend {
     display: block;
