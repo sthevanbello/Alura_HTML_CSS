@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+}
+p{
+    color: gray;
+    padding: 20px;
+    font-size: 25px;
+}
+#primeiro{
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
+
+.fundo-verde{
+    background-color:lightgreen;
+    border-radius: 15px;
+}
