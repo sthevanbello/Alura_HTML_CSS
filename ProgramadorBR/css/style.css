@@ -1,10 +1,10 @@
 body{
     text-align: center;
     margin: auto;
-    max-width: 500px;
+    max-width: 680px;
 }
 p{
-    color: gray;
+    color: black;
     padding: 20px;
     font-size: 25px;
 }
@@ -16,4 +16,17 @@ p{
 .fundo-verde{
     background-color:lightgreen;
     border-radius: 15px;
+}
+.primeira-tabela{
+    text-align: center;
+}
+
+.post{
+    background-color: #ccc;
+}
+.div-qualquer{
+    font-size: 20px;
+}
+.span-qualquer{
+    background-color: yellow;
 }
