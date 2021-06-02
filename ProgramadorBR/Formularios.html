@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulários</h1>
+    </header>
+    <main>
+        <form action="">
+            <!-- <label for="email">Email:</label> -->
+            <input type="text" name="email" id="nome" placeholder="email@mail.com"> <br>
+            <!-- <label for="senha">Senha:</label> -->
+            <input type="password" name="senha" id="senha" placeholder="senha"> <br>
+            <input type="submit" value="Enviar"> <br>
+
+            <div>
+                <input type="radio" name="genero" id="" value="m"> Masculino <br>
+                <input type="radio" name="genero" id="" value="f"> Feminino <br>
+                <input type="radio" name="genero" id="" value="n" checked> Não informado <br>
+            </div>
+
+
+            <div>
+                <Label>Interest</Label><br>
+                <input type="checkbox" name="option1" id="" value="Music"> Music <br>
+                <input type="checkbox" name="option2" id="" value="games"> Games <br>
+                <input type="checkbox" name="option3" id="" value="sports"> Sports <br>
+            </div>
+
+            <div>
+                <select name="interesse" id="select">
+                    <option value="music" >Music</option>
+                    <option value="games"selected>Games</option>
+                    <option value="sports">Sports</option>
+                    <option value="movies">Movies</option>
+
+                </select> <br><br>
+                <input type="message" name="interesse2" list="int">
+                <datalist id="int">
+                    <option value="Music">
+                    <option value="Games">
+                    <option value="Sports">
+                    <option value="Movies">
+
+                </datalist>
+                <br> <br>
+
+                <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <br><br>
+                <input type="color" name="bgcolor"> <br><br>
+                <input type="date" name="birthday"> <br> <br>
+                <input type="datetime-local" name="datetime-local" > <br> <br>
+                <input type="email" name="email" id="email"> <br> <br>
+                <input type="submit"> <br> <br>
+                <input type="month"> <br> <br>
+                <input type="number" min="1" max="10"> <br> <br>
+                <input type="telephone"><br> <br>
+                <input type="search" name="busca"> <br> <br>
+                <input type="url" name="url" id="url">
+            </div>     
+            <br>
+            <input type="reset" name="" id="">
+
+            <fieldset name="field">
+                <legend>Dados separados</legend>
+                <input type="color" name="bgcolor"> <br>
+                <input type="date" name="birthday"> <br>
+                <input type="datetime-local" name="datetime-local" > <br>
+                <input type="email" name="email" id="email"> <br>
+                <input type="submit"> <br><br>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
